@@ -1,0 +1,19 @@
+<div id="<%= dom_id apartment %>">
+<div class="container">
+<tr>
+    <th scope="row"><%= apartment.id %></th>
+    <td><%= apartment.number %></td>
+    <td><%= apartment.status %></td>
+    <td><%= apartment.building.name.capitalize %></td>
+    <td><%= apartment.building.name.capitalize %></td>
+    <td><%  apartment.building.characteristics.each do |single| %>
+        <%= single.name%> 
+    <%end %>
+  
+    
+    </td>
+    <td><%= link_to "Ver Departamento", apartment %></td>
+    </tr>
+
+</div>
+</div>

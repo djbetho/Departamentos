@@ -1,0 +1,32 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Apartments</h1>
+<div class="container">
+ 
+<div id="apartments">
+<table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Numero</th>
+          <th scope="col">Estado</th>
+          <th scope="col">Edificio</th>
+          <th scope="col">Caracteristicas</th>
+          <th scope="col">Ver</th>
+          <th scope="col" colspan="3"></th>
+        </tr>
+      </thead>
+      <tbody>
+       <% @apartments.each do |apartment| %>
+    <%= render apartment %>
+        <% end %>
+      </tbody>
+    </table>
+  
+    </p>
+</div>
+
+
+
+
+<%= link_to "New apartment", new_apartment_path %>

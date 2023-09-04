@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  has_pool: false
+  has_parking: false
+  has_playground: false
+  has_bbq: false
+  has_green_areas: false
+  has_gym: false
+  city: one
+
+two:
+  name: MyString
+  address: MyString
+  has_pool: false
+  has_parking: false
+  has_playground: false
+  has_bbq: false
+  has_green_areas: false
+  has_gym: false
+  city: two
