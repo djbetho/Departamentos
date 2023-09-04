@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Datos de pruebas
+Person.create( name: "Administrador", 
+               email: 'ru.bugueno@gmail.com',
+               password: '123456',
+               password_confirmation: '123456',
+               role:2)
+               
+Person.create( name: "concerje", 
+               email: 'concerje@gmail.com',
+               password: '123456',
+               password_confirmation: '123456',
+               role:1)
+Person.create( name: "usuario", 
+               email: 'usuario@gmail.com',
+               password: '123456',
+               password_confirmation: '123456',
+               role:0)
